@@ -1,0 +1,3 @@
+/vendor/
+/classifier*.phar
+/classifier*.phar.version

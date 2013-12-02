@@ -1,0 +1,34 @@
+{
+	"name": "camspiers/statistical-classifier-console",
+	"description": "Statistical Classifier Console",
+	"authors": [
+		{
+			"name": "Cam Spiers",
+			"email": "camspiers@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"Camspiers\\StatisticalClassifier": "src/"
+		}
+	},
+	"require": {
+		"camspiers/statistical-classifier": "~0.7",
+		"symfony/dependency-injection": "~2.2",
+		"react/http": "~0.2",
+		"symfony/console": "~2.2",
+		"symfony/yaml": "~2.2",
+		"symfony/finder": "~2.2",
+		"camspiers/json-pretty": "~0.1",
+		"camspiers/porter-stemmer": "~1.0",
+		"maximebf/cachecache": "~1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~3.7",
+		"symfony/process": "~2.2"
+	},
+	"bin": ["bin/classifier"],
+	"scripts": {
+		"post-autoload-dump": "bin/classifier generate-container"
+	}
+}
