@@ -4,7 +4,7 @@ This the command-line tool for the [PHP Classifier Library](https://github.com/c
 
 ## Installation
 
-Download the [`classifier.phar`](http://php-classifier.com/classifier.phar) executable.
+Download the [`classifier.phar`](https://camspiers.github.io/statistical-classifier/classifier.phar) executable.
 
 To stay up to date run
 
