@@ -49,7 +49,7 @@ class SelfUpdateCommand extends Command
     protected function execute(Input\InputInterface $input, Output\OutputInterface $output)
     {
         $url = sprintf(
-            "http://php-classifier.com/classifier%s.phar",
+            "https://camspiers.github.io/statistical-classifier/classifier%s.phar",
             $input->getOption('hhvm') ? '-hhvm' : ''
         );
         
